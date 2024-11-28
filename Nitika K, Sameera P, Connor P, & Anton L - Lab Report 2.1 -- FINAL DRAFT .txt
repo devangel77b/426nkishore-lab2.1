@@ -1,0 +1,126 @@
+﻿Relationship between Newton’s Second Law and acceleration, mass, and force 
+N.Kishore, S.Patil, A.Lavrenov, C.Paszkiewicz
+
+
+
+
+Abstract 
+Using a pulley system with two different masses on either end, this experiment focuses on the relationship between force and acceleration, taking into account various masses. Via the experiment results, we found that Newton’s Second Law, Force = Mass x Acceleration, was consistent with our measurements. 
+  
+
+Introduction 
+Newton's second law of motion is F=ma [1], which states that the force is directly proportional to acceleration. If a force is applied to an object and a force of equal magnitude is applied to a second object, then the object with more mass will accelerate less. [1] Furthermore, Newton’s Second Law states that as acceleration increases, mass should decrease and vice versa. Our goal throughout this experiment was to test how accurate that is by changing various masses used in our cart-pulley system. If Newton’s Second Law is accurate, F=ma should always stay accurate and constant. We hypothesize that the acceleration should decrease as the masses increase. We also hypothesize that the force of the system (F=ma) should stay constant as the weight values on the cart changes. 
+
+
+Materials and Methods
+Our method of testing Newton’s Second Law consisted of a pulley system, where there were two weights: one hanging weight as well as a weight on the cart above (see fig.1). Our hanging weight was 0.5 kilograms and our weights on the cart (0.5kg) varied between 1.2kg, 2.4kg, and 3.6kg. Our method for measuring acceleration was timing how fast it 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+took our cart to travel 0.50 meters once released using a measuring tape and stopwatch. We assumed that the friction caused by our plane and pulley were negligible. We conducted multiple trials, changing the weights on the cart for each one.We then found acceleration using the formula a =mhang(g)/mcart+mhang+0.5 (Assuming 0.5 as the cart’s mass). Finally, we found the forces acting on the system per trial using F=ma.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+        
+
+
+ FIG.1 Experiment Setup FBD
+
+
+
+
+
+
+  Data
+Trial
+	Hanging Mass (kg)
+	Cart Mass (kg)
+	Net Force (N) 
+	Distance (m) 
+	Acceleration  (m/s²) 
+	Time (s)
+	1
+	0.5
+	1.2
+	4.905
+	0.50
+	2.22
+	0.87
+	2
+	0.5
+	2.4
+	4.905
+	0.50
+	1.44
+	1.23
+	3
+	0.5
+	3.6
+	4.905
+	0.50
+	1.06 
+	1.35
+	
+
+  
+  
+
+
+
+
+
+
+
+                                Total mass (kg) 
+FIG.2 Total Mass (kg) x Acceleration (m/s²)
+
+
+
+
+Result and Discussion
+The graph calculated shows that as mass increases, the rate at which acceleration decreases becomes smaller. This correlates with our hypothesis as acceleration is inversely proportional to the total mass in our setup. Despite the changing variables, net force was able to remain constant throughout the entire experiment, supporting our hypothesis that Newton’s Second Law is always true and consistent. 
+
+
+Experimental Error
+Variability in force of the system could be due to friction and how it affects acceleration as well, as we assumed it was negligible. Human error occurring during the timing of the experiment could have also affected our results and in turn, the force of the system. 
+
+
+Acknowledgments
+We thank N. Kishore for timing the experiment, experiment set-up, and original lab report design and final revisions, A.Lavrenov for the analysis of the data and the figures, C.Paszkiewicz for original lab report revisions and documentation of initial data collection, and S.Patil for initial lab experiment report design, abstract and conclusion, and the description of the procedure. We also thank Manalapan High School for providing us with all the materials used throughout this experiment. 
+
+
+      References
+[1] P. Tipler, G. Mosca, Physics for Scientists and Engineers, Extended (W.H. Freeman and Company, United States, 2004).

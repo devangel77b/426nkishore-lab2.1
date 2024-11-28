@@ -1,0 +1,33 @@
+This is a review of the MS "Relationship between Newton's second law and
+accelration, mass, and force" by Kishore et al. The MS describes using a
+pulley system with two different masses on either end to find the force
+and acceleration.
+
+Abstract: It would be nice if the abstract gave one sentence about the
+overal result found.
+
+Introduction (called background?): The background is rather short. NEwton's
+second law is mentioned as F=ma, but the introduction does not setup the
+guiding research question or testable hypotheses. This was given later and only vaguelt, that a should decrease as mass increases, and that "F=ma is constant as the weight values on the cart change (?)" 
+
+Materials and methods (= materials and methods + setup + procedure) are given as
+bulletized lists which are unacceptable. While many trivial items are listed, also some unobtainable items (frictionlss plane, massless pulley) are mentioned. No supplier is mentioned for the cart or for the plane, so I am not sure how I would replicate these. The setup and procedure are given as a cookbook list (unacceptable); these should normally be explained in text and in past tense.
+
+The design of experiment is not clear. It looks like the authors did one replicate each of three different combinations of hanging mass and cart mass. They mention a formulat to calculate acceleation that has an unexplained addition of 0.5 to it:
+a = m_hang g / (m_cart + m_hang) + 0.5
+
+Results: A table is given of the single replicate where the authors did tests
+using constant F and varied cart mass. One replicate is unacceptable.
+
+Discussion (called analysis and conclusion). The authors mention a slope but are completely unclear what slope they are talking about. "F=ma was not constant throughout the lab" but either an equation is not a constant or F=constant which they give net force is constant at 4.9 N.
+
+The authors claim to valudate F=ma but their data does not; they claim variability due to friction is sufficient to explain discrepancies but I can't even tell what they did.
+
+If the authors are testing F = ma by picking a constant F and varying m_cart, so that a = F/(m+m_cart), they would be able to show the relationship holds by graphing a for several different values of m_cart. As it is now, the analysis and conclusion contradict each other.
+
+No breakdown of the individual contributions of the co-authors is given.
+
+One reference is listed; it is cited in the background (=Introduction).
+
+Figures: The cart drawing looks nice but is not really effectively used. NO graph of the results is given.
+

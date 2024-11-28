@@ -1,0 +1,21 @@
+This is a review of the resubmitted manuscript by Kishore et al entitled "Lab 2.1: Relationship between NEwton's second law and accelration, mass, and force". I recommend minor revisions.
+
+The title sounds like it is for a high school assignment not a submission to a major physics journal.
+
+The abstract could be revised to be shorter and more to the point. See markup.
+
+When F=ma is introduced, the authors should cite a source on that.
+
+In materials and methods, a formula for the acceleration fo the system is given but it is never explained where it comes from, it is not derived, and there is a strange additional 0.5 term in the equation.
+
+Results: The results are given in a table that is very difficult to read because the text has been chopped to fit into narrow columns. Also, it appears there is only one replicate per combination of m1 and m2.
+
+The graph of Fig 2 has no labeles on the axes and no units. There is a best fit line given but it is never explained where that line comes from.
+
+Discussion: Results and discussion should be separate. Results deals with what factually you saw. Discussion deals with analysis and interpretation of what the results mean.
+
+The discussion should not say that you "PRoved" newton's second law. The word "proof" is reserved for mathematical proofs of, say, Pythagorean Theorem.
+
+Sources of experimental error should give a citation explaining how timing would affect the lab. Are tehre any sources out there that talk about how late after an event humans typically will hit a button when manually timing with a stopwatch?
+
+The MS does not relate the findings to the broader significance of the research. Please add.
