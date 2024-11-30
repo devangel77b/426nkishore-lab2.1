@@ -8,6 +8,7 @@
 \usepackage{siunitx}
 \sisetup{separate-uncertainty=true}
 \usepackage{cleveref}
+\usepackage{svg}
 
 \begin{document}
 \title{Relationship between Newton’s Second Law and acceleration, mass, and force}
@@ -49,10 +50,8 @@ where $a$ is acceleration, $m_{hang}$ is the hanging mass, $m_{cart}$ is the mas
 
 
 \section{Results}
-\begin{table}
-\caption{Time and acceleration data}
-\label{tab:1}
-\end{table}
+Discuss \cref{tab:newtable1} here. 
+\input{table1.tex}
 %  Data
 %Trial
 %	Hanging Mass (kg)
@@ -86,7 +85,11 @@ where $a$ is acceleration, $m_{hang}$ is the hanging mass, $m_{cart}$ is the mas
 %
 %                                Total mass (kg) 
 
+Discuss \cref{fig:2} here. 
 \begin{figure}
+\begin{center}
+\includesvg[width=\columnwidth]{fig2.svg}
+\end{center}
 \caption{Total Mass (\unit{\kilo\gram}) x Acceleration (\unit{\meter\per\second\squared})}
 \label{fig:2}
 \end{figure}
