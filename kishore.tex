@@ -44,17 +44,21 @@ Newton's second law of motion is $\sum F=ma$ \cite{tipler}, which states that th
 Our method of testing Newton’s Second Law consisted of a pulley system, where there were two weights: one hanging weight as well as a weight on the cart above (see \cref{fig:1}). Our hanging weight was \qty{0.5}{\kilo\gram} and our weights on the cart (\qty{0.5}{\kilo\gram}) varied between \qty{1.2}{\kilo\gram}, \qty{2.4}{\kilo\gram}, and \qty{3.6}{\kilo\gram}. Our method for measuring acceleration was timing how fast it took our cart to travel \qty{0.50}{\meter} once released using a measuring tape and stopwatch. We assumed that the friction caused by our plane and pulley were negligible. We conducted multiple trials, changing the weights on the cart for each one. We then found acceleration using the formula
 \begin{equation}
 a = \dfrac{m_{hang}}{m_{cart}+m_{hang}+0.5} g,
+\label{eq:apred}
 \end{equation}
 where $a$ is acceleration, $m_{hang}$ is the hanging mass, $m_{cart}$ is the mass added to the cart, and \qty{0.5}{\kilo\gram} is the cart's empty mass). Finally, we found the forces acting on the system per trial using $\sum F = ma$.
 
 \begin{figure}
+\begin{center}
+\includegraphics[width=0.66\columnwidth]{fig1.png}
+\end{center}
 \caption{Experiment Setup FBD}
 \label{fig:1}
 \end{figure}
 
 
 \section{Results}
-Discuss \cref{tab:newtable1} here. 
+\Cref{tab:newtable1} gives the measured time and resulting acceleration for each value of $m_1$. 
 \input{table1.tex}
 %  Data
 %Trial
@@ -88,8 +92,7 @@ Discuss \cref{tab:newtable1} here.
 %	
 %
 %                                Total mass (kg) 
-
-Discuss \cref{fig:2} here. 
+\Cref{fig:2} shows a plot of the results from \cref{tab:newtable1} as black dots. The predicted acceleration from \cref{eq:apred} is shown as a blue line. The measured and predicted accelerations agree well. 
 \begin{figure}
 \begin{center}
 \includesvg[width=\columnwidth]{fig2.svg}
@@ -100,7 +103,7 @@ Discuss \cref{fig:2} here.
 
 
 \section{Discussion}
-The graph calculated shows that as mass increases, the rate at which acceleration decreases becomes smaller. This correlates with our hypothesis as acceleration is inversely proportional to the total mass in our setup. Despite the changing variables, net force was able to remain constant throughout the entire experiment, supporting our hypothesis that Newton’s Second Law is always true and consistent. 
+\Cref{fig:2} shows that as mass increases, the rate at which acceleration decreases becomes smaller. This correlates with our hypothesis as acceleration is inversely proportional to the total mass in our setup. Despite the changing variables, net force was able to remain constant throughout the entire experiment, supporting our hypothesis that Newton’s second law is always true and consistent. 
 
 \subsection{Sources of experimental error}
 Variability in force of the system could be due to friction and how it affects acceleration as well, as we assumed it was negligible. Human error occurring during the timing of the experiment could have also affected our results and in turn, the force of the system. 
