@@ -1,4 +1,4 @@
-﻿\documentclass[reprint,amsmath,amssymb,aps]{revtex4-2}
+﻿\documentclass[reprint,amsmath,amssymb,aps,twoside]{revtex4-2}
 
 
 \usepackage{graphicx}
@@ -13,8 +13,27 @@
 \crefname{figure}{Fig.}{Figs.}
 \crefname{table}{Table}{Tables}
 \usepackage{svg}
+% set PDF metadata
+\hypersetup{%
+pdftitle={Relationship between Newton's second law and acceleration, mass, and force},
+pdfauthor={Nitika Kishore, Sameera Patil, Anton Lavrenov, and Connor Paskiewicz},
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,RO]{J S\&E \textbf{1}, 21--22 (2024)}
+\fancyhead[LO]{Kishore et al.}
+\fancyhead[LE]{Relationship between Newton's second law}
+\fancyfoot[C]{\thepage}
+\fancypagestyle{mytitlepage}{
+\fancyhf{}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{1}, 21--22 (2024)}
+\fancyfoot[C]{\thepage}
+}
+
 
 \begin{document}
+\setcounter{page}{21}
 \title{Relationship between Newton’s second law and acceleration, mass, and force}
 \author{Nitika Kishore}
 \email{Contact author: 426nkishore@frhsd.com}
@@ -30,7 +49,7 @@ Using a pulley system with two different masses on either end, this experiment f
 
 \keywords{keywords here}
 
-\maketitle
+\maketitle\thispagestyle{mytitlepage}
   
 \section{Introduction}
 Newton's second law of motion is $\sum F=ma$ \cite{tipler}, which states that the force is directly proportional to acceleration. If a force is applied to an object and a force of equal magnitude is applied to a second object, then the object with more mass will accelerate less \cite{tipler}. Furthermore, Newton’s second law states that as acceleration increases, mass should decrease and vice versa. Our goal throughout this experiment was to test how accurate that is by changing various masses used in our cart-pulley system. If Newton’s second law is accurate, $F=ma$ should always stay accurate and constant. We hypothesize that the acceleration should decrease as the masses increase. We also hypothesize that the force of the system ($F=ma$) should stay constant as the weight values on the cart changes. 
